@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": 5000,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "jwt": {
+    "header": {
+      "typ": "access"
+    },
+    "audience": "http://localhost:3030/api",
+    "subject": "taka97",
+    "issuer": "taka97",
+    "algorithm": "HS256",
+    "expiresIn": "1d"
+  }
+}
